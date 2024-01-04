@@ -1,0 +1,230 @@
+/* Footer.css */
+
+.footer-container {
+    width: 1470px;
+    height: 324px;
+   
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #6B3CC9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom:0;
+}
+
+.upper-content {
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    padding: 20px 30px;
+    padding-right:10px;
+}
+
+.upper-content-1 {
+    width: 413px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.upper-content-1 .logo {
+    width: 238.89px;
+    height: 25px;
+    position: relative;
+}
+
+.upper-content-1 .logo::before {
+    content: '';
+    width: 238.89px;
+    height: 36.11px;
+    left: 0;
+    top: -11.11px;
+    position: absolute;
+}
+
+.upper-content-1 .description {
+    width: 413px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.upper-content-2 {
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    display: flex;
+}
+
+.technologies,
+.services {
+    width: 197px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+padding-right:30px;
+
+   
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top:40px;
+   
+}
+
+.technologies .tech-list,
+.services .service-list {
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    gap: 3px;
+    flex-direction: column;
+    display: flex;
+    margin-right:20px;
+}
+
+.tech-list .service,
+.service-list .service {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.border-line {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    height: 0px;
+    margin-bottom:10px;
+    
+}
+
+.bottom-content {
+    height: 25px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+    display: flex;
+}
+
+.bottom-content .border-line {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+
+    
+}
+
+.links {
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    display: flex;
+    width: Fixed 630px;
+    height: Hug 25px;
+    gap: 8px;
+
+margin-bottom:-20px;
+}
+
+.links .link {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom:-20px;
+}
+
+.arrow {
+    width: 4px;
+    height: 0px;
+    origin-top-left: 0;
+    rotate: 90deg;
+    border: 1px solid #FFFFFF;
+    margin-bottom:-250px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .footer-container {
+        height: auto
+    }
+
+    .upper-content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bottom-content {
+        width: 480px;
+        margin-top: 20px;
+    }
+
+    .upper-content-2 {
+        column-gap: 150px;
+    }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    .footer-container {
+        height: auto;
+        padding-left: 20px;
+    }
+
+    .upper-content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bottom-content {
+        width: 300px;
+    }
+
+    .upper-content-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .description {
+        width: 300px;
+    }
+
+}
+

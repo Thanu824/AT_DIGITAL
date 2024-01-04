@@ -1,0 +1,109 @@
+/* maindisplay2 */
+.maindisplay2 {
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  gap: 108px;
+  width: 1064px;
+  height: 416px;
+  margin-left: 188px;
+}
+
+/* display2 */
+.display2 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 5;
+  width: 542px;
+}
+
+/* display3 */
+.display3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 3;
+}
+
+/* h3 */
+.display3 h3 {
+  width: 507px;
+  text-align: left;
+  color:#6B3CC9;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Poppins';
+  line-height: 33px;
+  letter-spacing: wide;
+}
+
+/* p */
+.display3 p {
+  align-self: stretch;
+  color: #000000; 
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Inter';
+}
+
+/* button */
+.display3 button {
+  border-radius: 4px;
+  gap: 8px;
+  background:#F28D35;
+  margin-left:0px;
+  width: 174px;
+  height: 25px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color:white;
+text-decoration: none;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; 
+
+}
+
+/* img */
+.display3 img {
+  width: 414px;
+  height: 416px;
+}
+
+
+/* This is for 768px screen width */
+@media only screen and (max-width: 768px) {
+  .maindisplay2 {
+    flex-direction: column;
+    align-items: start;
+    margin-left: 5%;
+    gap: 5%;
+  }
+
+  .display3 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* This is for 375px screen width */
+@media only screen and (max-width: 375px) {
+  .maindisplay2 {
+    flex-direction: column;
+    align-items: start;
+    margin-left: 5%;
+    gap: 5%;
+  }
+
+  .display3 img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,97 @@
+/*main*/
+.maindisplay{
+width: 1,064px;
+height:414px;
+margin-top: 750px;
+margin-left: 188px;
+gap: 108px;
+}
+
+/*img*/
+.image1{
+width: 414px;
+height: 414px;
+}
+
+/*h3*/
+.h3{
+    width:507px;
+    height: 33px;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 33px;
+    letter-spacing: wide;
+    text-align: left;
+    color:#6B3CC9;
+    }
+  /*p*/
+.p{
+width: 542px;
+height: 76px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color:black;
+}
+/*button*/
+.button1{
+    padding: 22px, 20px, 12px, 20px;
+    border-radius: 4px;
+    gap: 8px;
+    background:#F28D35;
+    margin-left:0px;
+    width: 174px;
+    height: 25px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color:white;
+  }
+
+  /*display*/
+.display1{
+width: 530px;
+height: 187px;
+margin-top: -300px;
+margin-left: 500px;
+padding: 24px, 40px, 32px, 40px;
+gap: 20px;
+}
+
+
+/* This is for 768px screen width */
+@media only screen and (max-width: 768px) {
+  .displaybig,
+  .img {
+      height: 200px;
+  }
+
+  .headerContainer,
+  .p1,
+  .button {
+      width: 90%; 
+      margin-left: 5%; 
+  }
+}
+
+/* This is for 375px screen width */
+@media only screen and (max-width: 375px) {
+  .displaybig,
+  .img {
+      height: 150px; 
+  }
+
+  .headerContainer,
+  .p1,
+  .button {
+      width: 90%; 
+      margin-left: 5%; 
+  }
+}
